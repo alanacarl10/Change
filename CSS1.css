@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 4, 2019, 3:36:55 PM
+    Author     : blake
+*/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.startPara {
+    color: rgba(0,0,0,1);
+    /*font-weight: bold;*/
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 300px;
+    font-family: Lucida Sans Unicode;
+    margin: 0;
+    padding: 0;
+}
+
+.startPara2 {
+    color: rgba(0,0,0,1);
+    text-align: center;
+    font-size: 1rem;
+    font-family: Lucida Sans Unicode;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 0;
+}
+
+.startPara3 {
+    color: rgba(0,0,0,1);
+    text-align: center;
+    font-size: 1rem;
+    font-family: Lucida Sans Unicode;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 0;
+}
+
+.avatar {
+  display: inline;
+  margin: 0 auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content, .content2 {
+    margin-left: 10vw;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    width: 80vw; /*this is the line that changes the width of the blocks*/
+    background: #ffffff;
+}
+
+
+.description, .description2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10vw;
+    width: 80vw;
+    background: #000000;
+    color: white;
+    text-align: center;
+    font-family: Lucida Sans Unicode;
+}
+
+.header {
+    height: 25vw;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-family: Lucida Sans Unicode;
+}
+.overflow {
+  overflow-wrap: normal;
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}   
+
+.parallax {
+  /* The image used */
+  background-image: url("space2.jpg");
+
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pic1, #pic2{
+    margin: 400px;
+}
+
+h1{
+    text-align: left;
+}
+
+  .footer{
+  
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:green;
+    text-align: center;
+    padding-bottom: 1.5px;
+    padding-top:1.5px;
+    height:3vw;
+    margin-top:3vw;
+
+  }
+  
+  /*Footer*/
+  
+  .footer img{
+    width:30px;
+    height:30px;
+    padding-top:0.5vw
+  }
+}
