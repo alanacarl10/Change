@@ -217,8 +217,8 @@ h1{
 
 
 .round-button-circle {
-	width: 50vw;
-	height:20vw;
+	width: 60vw;
+	height:50vw;
 	padding-bottom: 100%;
     border-radius: 50%;
 	border:25px solid white;
@@ -391,6 +391,6 @@ h1{
     margin: 0 0 20px 0;
   }
   .col {
-    background: salmon;
+   
     padding: 20px;
   }
