@@ -1,0 +1,106 @@
+
+/*Current flex grid */
+.flex-grid {
+    display: flex;
+  }
+  .flex-grid .col {
+    flex: 1;
+  }
+  .flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-grid-thirds .col {
+    width: 32%;
+  }
+  
+  /* Will need to make this better for mobile*/
+  @media (max-width: 400px) {
+    .flex-grid,
+    .flex-grid-thirds {
+      display: block;
+      .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+  
+  
+ 
+  
+  * {
+    box-sizing: border-box;
+  }
+ 
+  .flex-grid { 
+    margin: 0 0 20px 0;
+  }
+  #a {
+   background: url("tech1.jpg");
+   background-size: cover;
+  padding: 20px;
+  }
+
+  #b {
+    background: url("tech2.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+   #c {
+    background: url("sports1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+   #d {
+    background: url("tech1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+ 
+   #e {
+    background: url("tech1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+
+   #f {
+    background: url("tech1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+
+   #g {
+    background: url("tech1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+ 
+   #h {
+    background: url("tech1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+
+   #i {
+    background: url("tech1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+ 
+   #j {
+    background: url("tech1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+ 
+   #k {
+    background: url("tech1.jpg");
+    background-size: cover;
+   padding: 20px;
+   }
+ 
+ 
+ 
+ 
+

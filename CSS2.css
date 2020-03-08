@@ -215,6 +215,7 @@ h1{
     color:black;
 }
 
+/* How the cicle appears*/
 
 .round-button-circle {
 	width: 60vw;
@@ -250,7 +251,7 @@ h1{
     padding-top:1.2vw;
     margin-left: 45vw;
 }
-
+/*Old code for previous layout 
 .container-1{
     display: flex;
     width: 100%;
@@ -354,7 +355,9 @@ h1{
    
 }
 
+*/ 
 
+/*Current flex grid */
 .flex-grid {
     display: flex;
   }
@@ -369,6 +372,7 @@ h1{
     width: 32%;
   }
   
+  /* Will need to make this better for mobile*/
   @media (max-width: 400px) {
     .flex-grid,
     .flex-grid-thirds {
@@ -391,6 +395,6 @@ h1{
     margin: 0 0 20px 0;
   }
   .col {
-   
+   background:pink;
     padding: 20px;
   }
