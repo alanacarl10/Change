@@ -34,34 +34,70 @@
   }
  
   .flex-grid { 
-    margin: 0 0 20px 0;
+   
   }
   #a {
-   background: url("tech1.jpg");
+   background: url(//cdn.instantmagazine.com/upload/16641/sarah-dorweiler-211778-unsplash.253b4e26e6f9.jpg);
    background-size: cover;
   padding: 20px;
+  flex: 0 0 auto;
+  height:28vw;
+  background-repeat: no-repeat;
+  background-position: center center;
   }
 
   #b {
-    background: url("tech2.jpg");
+    background: url(//cdn.instantmagazine.com/upload/16641/lum3n-250309-unsplash.74e7117d6eb2.jpg);
     background-size: cover;
    padding: 20px;
+   height:28vw;
+   background-repeat: no-repeat;
+  background-position: center center;
+
    }
    #c {
-    background: url("sports1.jpg");
+    background: url(//cdn.instantmagazine.com/upload/16641/zelle-duda-373004-unsplash.cbb30070bb30.jpg);
     background-size: cover;
    padding: 20px;
+   flex: 0 0 auto;
+   height:28vw;
+   background-repeat: no-repeat;
+   background-position: center center;
+
    }
    #d {
-    background: url("tech1.jpg");
+    background: url(//cdn.instantmagazine.com/upload/16641/scott-webb-244457-unsplash.73a1d482e25d.jpg);
     background-size: cover;
-   padding: 20px;
+    flex: 0 0 auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 40vw;
+    pointer-events: none;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    border-radius: inherit;
    }
  
    #e {
-    background: url("tech1.jpg");
+    background: url(//cdn.instantmagazine.com/upload/16641/gez-xavier-mansfield-284653-unsplash.dc9bc01dbf16.jpg);
     background-size: cover;
-   padding: 20px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 40vw;
+    pointer-events: none;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    border-radius: inherit;
+   
    }
 
    #f {
@@ -76,31 +112,28 @@
    padding: 20px;
    }
  
-   #h {
-    background: url("tech1.jpg");
-    background-size: cover;
-   padding: 20px;
-   }
 
-   #i {
-    background: url("tech1.jpg");
-    background-size: cover;
-   padding: 20px;
-   }
+  
  
-   #j {
-    background: url("tech1.jpg");
-    background-size: cover;
-   padding: 20px;
-   }
+ .col{
+   margin:0;
+  
+ }
  
-   #k {
-    background: url("tech1.jpg");
-    background-size: cover;
-   padding: 20px;
-   }
- 
- 
- 
- 
+ .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ .col p{
+  color: rgb(97, 98, 98)
+ }
 
