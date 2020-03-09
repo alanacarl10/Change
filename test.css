@@ -41,28 +41,28 @@
    background-size: cover;
   padding: 20px;
   flex: 0 0 auto;
-  height:28vw;
-  background-repeat: no-repeat;
-  background-position: center center;
+    height:28vw;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 
   #b {
     background: url(//cdn.instantmagazine.com/upload/16641/lum3n-250309-unsplash.74e7117d6eb2.jpg);
     background-size: cover;
-   padding: 20px;
-   height:28vw;
-   background-repeat: no-repeat;
-  background-position: center center;
+    padding: 20px;
+    height:28vw;
+    background-repeat: no-repeat;
+    background-position: center center;
 
    }
    #c {
     background: url(//cdn.instantmagazine.com/upload/16641/zelle-duda-373004-unsplash.cbb30070bb30.jpg);
     background-size: cover;
-   padding: 20px;
-   flex: 0 0 auto;
-   height:28vw;
-   background-repeat: no-repeat;
-   background-position: center center;
+    padding: 20px;
+    flex: 0 0 auto;
+    height:28vw;
+    background-repeat: no-repeat;
+    background-position: center center;
 
    }
    #d {
@@ -100,18 +100,7 @@
    
    }
 
-   #f {
-    background: url("tech1.jpg");
-    background-size: cover;
-   padding: 20px;
-   }
-
-   #g {
-    background: url("tech1.jpg");
-    background-size: cover;
-   padding: 20px;
-   }
- 
+   
 
   
  

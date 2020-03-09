@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background:white;
+  padding: 0;
+}
+
+.child {
+  display: inline-block;
+  font-family: "Open Sans", Arial;
+  font-size: 20px;
+
+  text-align: center;
+  
+  border-radius: 6px;
+  padding: 20px;
+  
+}
+
+.child:first-child {
+  width: 100%;
+  background-color:white;
+}
+
+.child:not(:first-child) {
+  flex: 1;
+}
+
+#a{
+ 
+  background-image: url(//cdn.foleon.com/upload/26462/webpnet-resizeimage_8.f7bd0f1d62a0.jpg);
+  flex: 0 0 auto;
+    height:50vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#a p, h2{
+  text-align:left;
+  color:white;
+  margin-top:10vw;
+  
+
+}
+
+#b h2, p{
+  padding-left:5vw;
+  padding-right:5vw;
+}
