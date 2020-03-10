@@ -68,7 +68,7 @@
   width: 32%;
 }
 
-#left{
+#picture, #left{
   background:url(//cdn.foleon.com/upload/26462/webpnet-resizeimage_9.13e3f41824e9.jpg);
   background-size: cover;
     left: 0px;

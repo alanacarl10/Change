@@ -112,6 +112,7 @@ html,body
 .parallax2 {
   /* The image used */
   background-image: url("space.jpg");
+  margin-top:30vw;
 
   
 
