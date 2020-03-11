@@ -36,6 +36,27 @@
     background-position: center center;
 }
 
+.row.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.row {
+  flex: 1 0 35%;
+  height: 100px;
+  margin: 5px;
+  
+}
+
+#d{
+  background:url(//cdn.foleon.com/upload/26462/bfdv_exterior_1_1.ba9ac1a1eb6b.jpg)
+  flex: 0 0 auto;
+    height:50vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
 #a p, h2{
   text-align:left;
   color:white;
@@ -44,7 +65,7 @@
 
 }
 
-#b h2, p{
+#b, h2, p{
   padding-left:5vw;
   padding-right:5vw;
   
@@ -56,6 +77,7 @@
 
 .flex-grid {
   display: flex;
+  margin-top:50vw;
 }
 .flex-grid .col {
   flex: 1;
@@ -68,7 +90,7 @@
   width: 32%;
 }
 
-#picture, #left{
+#picture, #left, #picture1{
   background:url(//cdn.foleon.com/upload/26462/webpnet-resizeimage_9.13e3f41824e9.jpg);
   background-size: cover;
     left: 0px;
